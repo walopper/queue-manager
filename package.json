@@ -1,0 +1,22 @@
+{
+  "name": "queue-manager",
+  "version": "0.0.1",
+  "description": "API Rest para la administracion de email queue",
+  "main": "index.js",
+  "author": "Fleetmailer",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon index"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "forever": "^0.15.3",
+    "mongoose": "^5.4.19",
+    "nodemon": "^1.18.10",
+    "promise-fs": "^2.1.0",
+    "socket-io": "^1.0.0",
+    "socket.io": "^2.2.0"
+  }
+}
